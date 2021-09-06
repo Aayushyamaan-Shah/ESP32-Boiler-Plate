@@ -14,16 +14,15 @@ git clone https://github.com/Aayushyamaan-Shah/ESP32-Boiler-Plate.git my-project
 
 2. Go inside of project folder
 ```
-cd my-project
+cd project-location
 ```
 
-3. Start VSC
+3. Start Visual Studio Code
 ```
 code .
 ```
 
-## Config, Build and Flash
-
+## Set, Config, Build, Flash
 ```
 idf.py set-target esp32
 idf.py menuconfig
@@ -31,14 +30,8 @@ idf.py build
 idf.py -p (PORT) flash
 ```
 
-## Demo
-
-[![Get started with ESP32 in VS CODE ... ESP-IDF](https://img.youtube.com/vi/aQi8qiW9fmg/mqdefault.jpg)](https://www.youtube.com/watch?v=aQi8qiW9fmg)
-
 ## Author
-
 GitHub: [Aayushyamaan Shah](https://github.com/Aayushyamaan-Shah)
 
 ## License
-
 [MIT](LICENSE)
