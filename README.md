@@ -9,7 +9,7 @@ Boilerplate for developing ESP32 projects using ESP-IDF and VS Code
 
 1. Clone repository
 ```
-git clone https://github.com/abobija/esp-idf-vscode-boilerplate.git my-project
+git clone https://github.com/Aayushyamaan-Shah/ESP32-Boiler-Plate.git my-project
 ```
 
 2. Go inside of project folder
@@ -37,9 +37,7 @@ idf.py -p (PORT) flash
 
 ## Author
 
-GitHub: [abobija](https://github.com/abobija)<br>
-Homepage: [abobija.com](https://abobija.com)
-
+GitHub: [Aayushyamaan Shah](https://github.com/Aayushyamaan-Shah)
 ## License
 
 [MIT](LICENSE)
