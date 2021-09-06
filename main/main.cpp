@@ -31,8 +31,9 @@ esp_err_t Main::setup(void){
 void Main::loop(void){
 	// The code that needs to loop
 	gpio_set_level((gpio_num_t)LED, 1);
-	vTaskDelay(1000/portTICK_PERIOD_MS);
 	ESP_LOGI(LOG_TAG, "LED ON");
+	vTaskDelay(1000/portTICK_PERIOD_MS);
+
 	gpio_set_level((gpio_num_t)LED, 0);
 	ESP_LOGI(LOG_TAG, "LED OFF");
 	vTaskDelay(1000/portTICK_PERIOD_MS);
