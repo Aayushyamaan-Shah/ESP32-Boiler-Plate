@@ -1,5 +1,5 @@
-# esp-idf-vscode-boilerplate
-Boilerplate for developing ESP32 projects using ESP-IDF and VS Code
+# ESP-32-Boiler-Plate
+This project is a boilerplate for developing ESP32 projects using ESP-IDF and VS Code
 
   > Note 1: You need to have installed [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) extension in your VS Code.
 
@@ -38,6 +38,7 @@ idf.py -p (PORT) flash
 ## Author
 
 GitHub: [Aayushyamaan Shah](https://github.com/Aayushyamaan-Shah)
+
 ## License
 
 [MIT](LICENSE)
